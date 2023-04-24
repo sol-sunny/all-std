@@ -1,0 +1,70 @@
+/* .orange {
+  color: orange;
+} */
+
+/* .profile {
+  position: relative;
+  width: 300px;
+  text-align: center;
+  padding: 1rem;
+  background-color: #ebebeb;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+  box-shadow: 6px 6px 0px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 6px 6px 0px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 0px -1px rgba(0, 0, 0, 0.75);
+} */
+/* 
+.photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+} */
+
+
+.new {
+  position: absolute; /*포지션이 absolute면 릴레이티브(부모)를 기준으로 잡아준다.*/
+  left: 70%; /*부모로 부터 즉 프로파일의 제일 왼쪽 꼭지점부터 70%로 떨어진곳*/
+  top: 10%; /*부모로 부터 즉 프로파일의 제일 위쪽 꼭지점부터 10%로 떨어진곳*/
+  background-color: aquamarine;
+  padding: 0.2rem 0.5rem; /*위아래, 양옆 패딩값*/
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.count {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+  border: 5px solid rgb(215, 127, 12);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.number {
+  font-size: 7rem;
+}
+
+.addBtn {
+  font-size: 2rem;
+  padding: 0.2rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: rgb(215, 127, 12); 
+}
+
+.total{
+  font-size: 1.5rem;
+}
+
+.totalAmount{
+  border: 2px solid lightgoldenrodyellow;
+  background-color: lemonchiffon;
+  text-align: center;
+  font-size: 2rem;
+  margin: 0.5rem;
+  padding: 0.7rem;
+
+}
